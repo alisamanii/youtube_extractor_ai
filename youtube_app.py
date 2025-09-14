@@ -8,7 +8,7 @@ app = FastAPI()
 from fastapi.staticfiles import StaticFiles
 app.mount("/static", StaticFiles(directory="static"), name="static")
 # کلید Gemini
-GEMINI_API_KEY = "AIzaSyBLISkBcVNKxBmr47YZu2OkbJNSpinTIwc"
+GEMINI_API_KEY = "YOUR_GEMINI_API"
 
 
 def extract_video_id(url: str) -> str:
