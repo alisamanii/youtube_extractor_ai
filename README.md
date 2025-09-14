@@ -3,9 +3,7 @@
 
 
 
-to run this project write this ... in the Terminal of Pycharm 
 
-uvicorn youtube_app:app --reload
 -------------------------------------------------------------------------
 عالیه ✅
 من می‌تونم برات یک فایل **README.md** برای پروژه روی گیت‌هاب آماده کنم، با توضیحات کامل، شیک، حرفه‌ای و پر از **ایموجی** و حتی پیشنهاد استفاده از **Badges و تصاویر گرافیکی**.
@@ -93,7 +91,7 @@ GEMINI_API_KEY = "YOUR_GEMINI_API"
 ### 4️⃣ Run the server
 
 ```bash
-uvicorn main:app --reload
+uvicorn youtube_app:app --reload
 ```
 
 ### 5️⃣ Open in browser
